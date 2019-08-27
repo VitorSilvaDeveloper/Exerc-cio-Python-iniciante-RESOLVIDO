@@ -1,0 +1,9 @@
+real = float(input('Quantos Reais você tem na carteira? R$'))
+dolar = float(input('Qual o valor da cotação do Dólar? $'))
+euro = float(input('Qual o valor da cotção do Euro? €'))
+
+resultado = real / dolar
+resultado1 = real/ euro
+
+print('Com R${} Reais você compra ${} Dólar, levando em consideração o valor informado da cotação de {}'.format(reais, resultado, dolar))
+print('Com R${} Reais você compra €{} Euros, levando em consideração o valor informado da cotação de {}'.format(reais, resultado1, euro))
