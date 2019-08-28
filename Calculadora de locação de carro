@@ -1,0 +1,16 @@
+#Calculadora de valor a pagar a locadora de carro#
+
+dia = int(input('Quantos dias ficou com o carro alugado?'))
+valor_dia = float(input('Qual o valor da diaria do carro? R$'))
+ 
+km = float(input('Quantos km você andou com o carro?'))
+valor_km float(input('Qual o valor do km que a locadora cobra? R$'))
+
+novo_dia = dia * Valor_dia 
+novo_km = km * valor_km
+
+resultado = novo_dia + novo_km
+
+print('Calculando..')
+print('O valor que você irar pagar a locadora é R${} reais'.format(resultado))
+
